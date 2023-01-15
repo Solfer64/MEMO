@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  height: 100%;
+}
+.container {
+  margin: 10rem auto;
+  background-color: #c8c8c8;
+  width: 55%;
+  padding: 10px 10px;
+}
+.room {
+  background-color: #656565;
+  max-width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+.room2,
+.room3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8 {
+  width: 20%;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  box-shadow: 10px 10px 184px -30px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 184px -30px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 184px -30px rgba(0, 0, 0, 0.75);
+}
+h3 {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+p {
+  font-family: "Nanum Pen Script", cursive;
+}
+.box1,
+.box5,
+.box7 {
+  background-color: #f1f3c2;
+}
+.box2,
+.box8 {
+  background-color: #c9fec8;
+}
+.box3,
+.box6 {
+  background-color: #cacbfb;
+}
+.box4 {
+  background-color: #cbfdca;
+}
